@@ -1,0 +1,8 @@
+C:\Users\user\OneDrive\Escritorio\Digitalers-.NET\C#\taller\tp3-taller\bin\Debug\tp3-taller.exe.config
+C:\Users\user\OneDrive\Escritorio\Digitalers-.NET\C#\taller\tp3-taller\bin\Debug\tp3-taller.exe
+C:\Users\user\OneDrive\Escritorio\Digitalers-.NET\C#\taller\tp3-taller\bin\Debug\tp3-taller.pdb
+C:\Users\user\OneDrive\Escritorio\Digitalers-.NET\C#\taller\tp3-taller\obj\Debug\tp3-taller.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Escritorio\Digitalers-.NET\C#\taller\tp3-taller\obj\Debug\tp3-taller.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\OneDrive\Escritorio\Digitalers-.NET\C#\taller\tp3-taller\obj\Debug\tp3-taller.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Escritorio\Digitalers-.NET\C#\taller\tp3-taller\obj\Debug\tp3-taller.exe
+C:\Users\user\OneDrive\Escritorio\Digitalers-.NET\C#\taller\tp3-taller\obj\Debug\tp3-taller.pdb
