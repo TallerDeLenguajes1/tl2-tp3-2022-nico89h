@@ -102,5 +102,14 @@ namespace tp3_taller
                 return true;
             }
         }
+        public string mostrarDatos()
+        {
+            string datosCadetes = "";
+            foreach (Cadete item in this.Cadetes1) //recorro la lista de los cadetes
+            {
+                datosCadetes += item.mostrarDatos()+"\n";
+            }
+            return this.Nombre + "," + this.Telefono+"\n"+datosCadetes;
+        }
     }
 }

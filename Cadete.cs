@@ -95,6 +95,16 @@ namespace tp3_taller
             }
         }
 
+        public override string mostrarDatos()
+        {
+            string datosPedidos = "";
+            foreach (Pedido pedido in this.ListaPedidos)
+            {
+                datosPedidos += pedido.mostrarDatos()+"|"; //aca en el ultimo dato quedara un problema para poder obtener el listado de los pedidos
+            }
+            int aux = datosPedidos.Length;
+            return base.mostrarDatos()+"*"+datosPedidos;
+        }
     }
 
 }

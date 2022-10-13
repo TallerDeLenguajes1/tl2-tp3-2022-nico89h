@@ -10,15 +10,23 @@ namespace tp3_taller
     {
         //inicio de la clase cliente
         private string datosReferenciaDireccion;
-
+        //iniciod de constructores
         public Cliente()
         {
             this.datosReferenciaDireccion = "";
         }
 
-        public Cliente(int id, string nombre, string direccion, string telefono, string datosReferenciaDireccion = "") : base(id, nombre, direccion, telefono)
+        public Cliente(int id, string nombre, string direccion, string telefono, string datosReferenciaDireccion) : base(id, nombre, direccion, telefono)
         {
             this.datosReferenciaDireccion = datosReferenciaDireccion;
+        }
+        //inicio de getter y setter
+        public string DatosReferenciaDireccion { get => datosReferenciaDireccion; set => datosReferenciaDireccion = value; }
+
+        //inicio de metodos
+        public override string mostrarDatos()
+        {
+            return base.mostrarDatos()+","+this.DatosReferenciaDireccion;
         }
     }
 }

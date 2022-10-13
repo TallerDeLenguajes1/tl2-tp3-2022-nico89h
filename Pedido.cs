@@ -58,5 +58,9 @@ namespace tp3_taller
         {
             this.Estado = !this.Estado;
         }
+        public string mostrarDatos()
+        {
+            return this.Nro.ToString()+","+this.Observaciones+","+this.Estado.ToString()+";"+this.Cliente.mostrarDatos();
+        }
     }
 }

@@ -30,5 +30,10 @@ namespace tp3_taller
         public string Nombre { get => nombre; set => nombre = value; }
         public string Direccion { get => direccion; set => direccion = value; }
         public string Telefono { get => telefono; set => telefono = value; }
+        //inicio de los metodos
+        public virtual string mostrarDatos()
+        {
+            return Id.ToString() + "," + this.Nombre + "," + this.Direccion + "," + this.Telefono;
+        }
     }
 }
